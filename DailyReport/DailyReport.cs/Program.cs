@@ -20,19 +20,19 @@ namespace DailyReport //makes it easier to identify where stored
             string courseName = Console.ReadLine();
 
             Console.WriteLine("What page number?\n");
-            string pageNumber = Console.ReadLine(); // don't use int. This is not a math operation, just a specific answer
+            int pageNumber = Convert.ToInt32(Console.ReadLine()); // int represents whole numbers. Gives an error if anything but an int is entered
 
-            Console.WriteLine("Do you need help with anything?\n");            
-            string helpQuestion = Console.ReadLine(); //bool could possibly be used for a simple y/n answer. If so, radio buttons or check boxes recommended. String works for space to describe question
+            Console.WriteLine("Do you need help with anything? Please answer \"true\" or \"false\". \n");            
+            bool needHelp = Convert.ToBoolean(Console.ReadLine()); //true or false answer only. Error if anything else
             
             Console.WriteLine("Were there any positive experiences you'd like to share? Please give specifics.\n");
-            string yourExperience = Console.ReadLine(); //same notes as above concerning bool
+            string yourExperience = Console.ReadLine();
 
             Console.WriteLine("Is there any other feedback you'd like to provide? please be specific.\n");
-            string otherfeedback = Console.ReadLine(); //same notes as above concerning bool
+            string otherfeedback = Console.ReadLine();
 
             Console.WriteLine("How many hours did you study today?\n ");
-            string hoursStudied = Console.ReadLine(); //not a math operation so int is not used. String does the job
+            byte hoursStudied = Convert.ToByte(Console.ReadLine()); //a small number of hours can be represented by byte
 
             Console.WriteLine("Thank you for your answers. An Instructor will respond\n" +
                 "to this shortly. Have a great day!");
