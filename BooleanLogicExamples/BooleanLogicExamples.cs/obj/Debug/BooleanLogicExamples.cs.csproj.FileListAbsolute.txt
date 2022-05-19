@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\bin\Debug\BooleanLogicExamples.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\bin\Debug\BooleanLogicExamples.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\bin\Debug\BooleanLogicExamples.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\obj\Debug\BooleanLogicExamples.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\obj\Debug\BooleanLogicExamples.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\obj\Debug\BooleanLogicExamples.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BooleanLogicExamples\BooleanLogicExamples.cs\obj\Debug\BooleanLogicExamples.cs.pdb

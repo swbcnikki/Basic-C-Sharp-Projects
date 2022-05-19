@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\bin\Debug\CarInsuranceApproval.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\bin\Debug\CarInsuranceApproval.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\bin\Debug\CarInsuranceApproval.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\obj\Debug\CarInsuranceApproval.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\obj\Debug\CarInsuranceApproval.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\obj\Debug\CarInsuranceApproval.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\CarInsuranceApproval\CarInsuranceApproval.cs\obj\Debug\CarInsuranceApproval.cs.pdb

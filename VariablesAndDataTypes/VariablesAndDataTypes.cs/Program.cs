@@ -29,19 +29,24 @@ namespace VariablesAndDataTypes.cs
 
 
             //examples of other datatypes
-            bool isStudying = false;
-            byte hoursWorked = 42;
-            sbyte currentTemp = -2;
-            char questionMark = '\u2103'; //unicode
+            bool isStudying = false; //true or false
+            byte hoursWorked = 42; //unsigned number between 0 and 255
+            sbyte currentTemp = -2; //signed number between -128 and 127
+            char questionMark = '\u2103'; //char represents one Unicode character assigned with single quotes
 
             //Console.WriteLine(questionMark);
             //Console.ReadLine();
 
-            decimal moneyInTheBank = 100.5m; // m means decimal
-            double heightInCentimeters = 225.683;
-            float secondsLeft = 13.4f;
-            short temparatureOnMars = -300;
-            string myName = "Miss Jackson if ya nasty";
+            decimal moneyInTheBank = 100.5m; // m is the decimal suffix. Represents any number up to 28 or 29 digits in length - 128-bits
+            double heightInCentimeters = 225.683; //Represents any number up to 15 or 16 digits in length - 64-bits
+            float secondsLeft = 13.4f; // f is the float suffix. Represents any number up to 7 digits in length - 32-bits
+            short temparatureOnMars = -300; //Represents a whole number between -32,678 and 32,767. 16-bit version of int
+            ushort antarcticaPopulation = 302; //Represents a whole number between 0 and 65,535. 16-bit version of uint
+            long moleculeDifference = 4843349238903; //Represents a whole number between -9000000000000000000 and 9000000000000000000. 64-bit version of int
+            ulong airMoleculesInJar = 24328493492309; //Represents a whole number between 0 and 18000000000000000000. 64-bit version of uint
+            string myName = "Miss Jackson if ya nasty"; //Represents a set of 0 or more Unicode characters. Delimited by double-quotes
+            int population = 495000000; // Represents a whole number between -2000000000 and 2000000000. 32-bits
+            uint pixelWidth = 1280; // unsigned integer. Represents a whole number between 0 and about 4000000000
 
             int currentAge = 30; // convert int to str
             string yearsOld = currentAge.ToString();
