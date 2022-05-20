@@ -19,10 +19,8 @@ namespace CarInsuranceApproval.cs
             bool ofAge = currentAge >= 15;
            
             //maximum for DUI is 0
-            Console.WriteLine("Have many DUIs do you have?");
-            int DUI = Convert.ToInt32(Console.ReadLine());
-
-            bool noDUI = DUI == 0;
+            Console.WriteLine("Do you have any DUI? Please input true or false");
+            bool DUI = Convert.ToBoolean(Console.ReadLine());
 
            // max speeding tickets is 3
             Console.WriteLine("How many speeding tickets do you have?");
@@ -32,7 +30,7 @@ namespace CarInsuranceApproval.cs
 
             //determining boolean logic
             Console.WriteLine("Did you qualify?");
-            bool qualify = ofAge && noDUI && maxTickets;
+            bool qualify = ofAge && DUI == false && maxTickets;
             Console.WriteLine(qualify);
             Console.ReadLine();
         }
