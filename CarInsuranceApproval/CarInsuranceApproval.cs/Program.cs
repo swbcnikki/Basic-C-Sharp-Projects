@@ -16,7 +16,7 @@ namespace CarInsuranceApproval.cs
             Console.WriteLine("What is your current age?");
             int currentAge = Convert.ToInt32(Console.ReadLine());
 
-            bool ofAge = currentAge >= 15;
+            bool ofAge = currentAge > 15;
            
             //maximum for DUI is 0
             Console.WriteLine("Do you have any DUI? Please input true or false");
