@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\obj\Debug\BranchingAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\obj\Debug\BranchingAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\bin\Debug\BranchingAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\bin\Debug\BranchingAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\bin\Debug\BranchingAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\obj\Debug\BranchingAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\BranchingAssignment\BranchingAssignment.cs\obj\Debug\BranchingAssignment.cs.pdb
