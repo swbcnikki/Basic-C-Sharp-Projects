@@ -26,10 +26,7 @@ namespace BranchingAssignment.cs
             // If not over max weight, app will continue
             else
             {   
-                //declaring the max size limit variables
-                int maxLength = 50;
-                int maxWidth = 50;
-                int maxHeight = 50;
+                               
 
                 //Asks the user for more information to determine if the package is within max limits in size
                 Console.WriteLine("Please enter the width of your package.");
@@ -41,12 +38,11 @@ namespace BranchingAssignment.cs
                 Console.WriteLine("Please enter the length of your package.");
                 int packageLength = Convert.ToInt32(Console.ReadLine());
 
-                //comparable package size variables 
-                int maxSize = maxLength * maxWidth * maxHeight;
-                int packageSize = packageLength * packageWidth * packageHeight;
+                //package size variable. Total dimensions max is 50        
+                int packageDimensions = packageLength + packageWidth + packageHeight;
                 
                 // bool logic. If package size is over max size the message will print and close the app
-                if (packageSize > maxSize)
+                if (packageDimensions > 50)
                 {
                     Console.WriteLine("Package is too big to be shipped via Package Express. Have a good day.");
                     Console.ReadLine();
@@ -54,6 +50,7 @@ namespace BranchingAssignment.cs
                 // If package is within max size the app continues and calculates the shipping
                 else
                 {
+                    int packageSize = packageLength * packageWidth * packageHeight;
                     // converting measurement int to decimal for financial calculations
                     decimal shipCost = Convert.ToDecimal(packageSize * packageWeight/100);
                                         
