@@ -25,9 +25,7 @@ namespace BranchingAssignment.cs
             }
             // If not over max weight, app will continue
             else
-            {   
-                               
-
+            {                               
                 //Asks the user for more information to determine if the package is within max limits in size
                 Console.WriteLine("Please enter the width of your package.");
                 int packageWidth = Convert.ToInt32(Console.ReadLine());
@@ -59,16 +57,9 @@ namespace BranchingAssignment.cs
                     Console.ReadLine();
                     
                 }
-                
-
-
-
-                
+                                
             }
-            
-
-
-            
+                       
             
         }
 
