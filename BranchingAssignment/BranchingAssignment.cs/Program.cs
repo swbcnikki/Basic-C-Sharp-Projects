@@ -11,24 +11,27 @@ namespace BranchingAssignment.cs
         static void Main(string[] args)
         {
             
-            Console.WriteLine("Welcome to Package Express. Please follow the instructions below."); //name of program
-            //first instruction
+            Console.WriteLine("Welcome to Package Express! Please follow the instructions below."); //name of program
+            //declaring max limit weight.
             int maxWeight = 50;
+            //first instruction
             Console.WriteLine("Please enter the weight of your package.");
             int packageWeight = Convert.ToInt32(Console.ReadLine());
-
+            // bool logic. If over max weight, app will print message and close
             if (packageWeight > maxWeight)
             {
                 Console.WriteLine("Package is too heavy to be shipped via Package Express. Have a good day.");
                 Console.ReadLine();
             }
-            
+            // If not over max weight, app will continue
             else
-            {
+            {   
+                //declaring the max size limit variables
                 int maxLength = 50;
                 int maxWidth = 50;
                 int maxHeight = 50;
 
+                //Asks the user for more information to determine if the package is within max limits in size
                 Console.WriteLine("Please enter the width of your package.");
                 int packageWidth = Convert.ToInt32(Console.ReadLine());
 
@@ -38,16 +41,20 @@ namespace BranchingAssignment.cs
                 Console.WriteLine("Please enter the length of your package.");
                 int packageLength = Convert.ToInt32(Console.ReadLine());
 
+                //comparable package size variables 
                 int maxSize = maxLength * maxWidth * maxHeight;
                 int packageSize = packageLength * packageWidth * packageHeight;
                 
-                if (packageSize > maxSize )
+                // bool logic. If package size is over max size the message will print and close the app
+                if (packageSize > maxSize)
                 {
                     Console.WriteLine("Package is too big to be shipped via Package Express. Have a good day.");
                     Console.ReadLine();
                 }
+                // If package is within max size the app continues and calculates the shipping
                 else
                 {
+                    // converting measurement int to decimal for financial calculations
                     decimal shipCost = Convert.ToDecimal(packageSize * packageWeight/100);
                                         
                     Console.WriteLine("Your estimated cost for shipping this package is " + "$" + shipCost);
