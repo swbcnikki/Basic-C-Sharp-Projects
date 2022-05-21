@@ -17,11 +17,11 @@ namespace AnonymousIncomeComparisonProgram.cs
 
             //Question in string, hourly rate in integer
             Console.WriteLine("What is the hourly Rate?\n");
-            int hourlyRate1 = Convert.ToInt32(Console.ReadLine()); //integer variable and value
+            int hourlyRate1 = Convert.ToInt32(Console.ReadLine());
 
             //Question in string, hours worked in integer
             Console.WriteLine("Hours worked per week?\n ");           
-            int hoursWorked1 = Convert.ToInt32(Console.ReadLine()); //integer variable and value
+            int hoursWorked1 = Convert.ToInt32(Console.ReadLine());
 
             
             Console.WriteLine("Person 2");
