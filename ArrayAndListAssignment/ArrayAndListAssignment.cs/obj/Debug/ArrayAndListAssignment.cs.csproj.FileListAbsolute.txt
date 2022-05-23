@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\bin\Debug\ArrayAndListAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\bin\Debug\ArrayAndListAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\bin\Debug\ArrayAndListAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\obj\Debug\ArrayAndListAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\obj\Debug\ArrayAndListAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\obj\Debug\ArrayAndListAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArrayAndListAssignment\ArrayAndListAssignment.cs\obj\Debug\ArrayAndListAssignment.cs.pdb
