@@ -10,6 +10,7 @@ namespace DoWhileStatementAssignment.cs
     {
         static void Main(string[] args)
         {
+            //demonstrating a basic while statement. While statements need a limit, otherwise, they will go on forever.
             int numbers = 1;
             while (numbers <= 10)
             {
