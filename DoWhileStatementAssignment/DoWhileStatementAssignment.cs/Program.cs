@@ -10,10 +10,16 @@ namespace DoWhileStatementAssignment.cs
     {
         static void Main(string[] args)
         {
+            int numbers = 1;
+            while (numbers <= 10)
+            {
+                Console.WriteLine(numbers);
+                numbers++;                
+            }
             //Question being asked
             Console.WriteLine("Which number is concidered to be arithmetically unique and the most prime? Hint - it is between 1 and 10.");
-            int unique = Convert.ToInt32(Console.ReadLine());
-            bool isRight = unique == 7; //bool logic. True only if the answer is 7. False all other answers.
+            int unique = Convert.ToInt32(Console.ReadLine());           
+            bool isRight = unique == 7; //bool logic. True only if the answer is 7. False all other answers.            
 
             do //first part of do while loop. Ensures the while loop runs at least once to fully process the code
             {
