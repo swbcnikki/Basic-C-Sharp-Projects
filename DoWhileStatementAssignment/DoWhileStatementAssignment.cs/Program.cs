@@ -17,6 +17,7 @@ namespace DoWhileStatementAssignment.cs
                 Console.WriteLine(numbers);
                 numbers++;                
             }
+            //demonstrating a do while statement
             //Question being asked
             Console.WriteLine("Which number is concidered to be arithmetically unique and the most prime? Hint - it is between 1 and 10.");
             int unique = Convert.ToInt32(Console.ReadLine());           
