@@ -48,7 +48,7 @@ class Program
 
         List<string> stringList = new List<string>();
         stringList.Add("Hello");
-        stringList.Add("Jesse");
+        stringList.Add("Jesse")
         stringList.Remove("Jesse");
 
         Console.WriteLine(stringList[0]);

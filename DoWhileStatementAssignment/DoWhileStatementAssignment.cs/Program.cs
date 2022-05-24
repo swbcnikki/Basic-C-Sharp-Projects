@@ -10,12 +10,14 @@ namespace DoWhileStatementAssignment.cs
     {
         static void Main(string[] args)
         {
+            //Demonstrating a while statement. While statements need a limit, otherwise, they will go on forever.
             int numbers = 1;
             while (numbers <= 10)
             {
                 Console.WriteLine(numbers);
                 numbers++;                
             }
+            //Demonstrating a do while statement
             //Question being asked
             Console.WriteLine("Which number is concidered to be arithmetically unique and the most prime? Hint - it is between 1 and 10.");
             int unique = Convert.ToInt32(Console.ReadLine());           
