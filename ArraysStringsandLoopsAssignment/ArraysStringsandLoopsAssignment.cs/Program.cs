@@ -46,7 +46,7 @@ namespace ArraysStringsandLoopsAssignment.cs
             }
             Console.ReadLine();
 
-            //for comparison, iterating the loop with a < operator
+            //for comparison, iterating the list with a < operator
             int ohno1 = 1;
             while (ohno1 < 14)
             {
@@ -54,7 +54,7 @@ namespace ArraysStringsandLoopsAssignment.cs
             }
             Console.ReadLine();
 
-            //for comparison
+            //for comparison, iterating the list with a > operator. Note the direction is in the negative 
             int ohno2 = 14;
             while (ohno2 > 1)
             {
@@ -127,8 +127,12 @@ namespace ArraysStringsandLoopsAssignment.cs
             Console.ReadLine();
 
 
-            // I need help with this
 
+
+
+
+
+            // I need help with this
             
             Console.WriteLine("NFL Teams With First Overall Pick Since 2017");
 
@@ -136,11 +140,11 @@ namespace ArraysStringsandLoopsAssignment.cs
             List<string> bustRedo = new List<string>(); // stores habitual bust winners       
 
             Console.WriteLine("Of the 32 NFL teams, which have picked first in the last 6 drafts?");
-            string hopeful = Console.ReadLine();
+            string hopeful = Console.ReadLine(); //each team is hoping for the golden goose
 
-            int firstPick = 0;
-            int lastPlace = 0;
-            int gladNot = 0;
+            int firstPick = 0;// numbering the list
+            int lastPlace = 0;// index of list
+            int gladNot = 0; // those not on the list
             foreach (string team in bustList)
             {
                 if (hopeful == team)
@@ -151,13 +155,13 @@ namespace ArraysStringsandLoopsAssignment.cs
                 firstPick++;
             
                 if
-                    (!bustList.Contains(team))
-                    bustList.Add(team);
+                    (!bustList.Contains(team)) // It's meant to identify the duplicates but it doesn't. 
+                    bustList.Add(team);     // same as above. 
                 else
-                    bustRedo.Add(team);
+                    bustRedo.Add(team); // where the duplicates are supposed to go
             }
             foreach (string team in bustRedo)
-                Console.WriteLine(team + "(2)");
+                Console.WriteLine(team + "(2)"); // special addition to duplicate to indicate it is appearing for the 2nd time on the list
             Console.ReadLine();
 
 
