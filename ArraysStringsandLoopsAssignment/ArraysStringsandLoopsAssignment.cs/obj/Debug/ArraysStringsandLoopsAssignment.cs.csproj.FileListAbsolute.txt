@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\bin\Debug\ArraysStringsandLoopsAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\bin\Debug\ArraysStringsandLoopsAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\bin\Debug\ArraysStringsandLoopsAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\obj\Debug\ArraysStringsandLoopsAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\obj\Debug\ArraysStringsandLoopsAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\obj\Debug\ArraysStringsandLoopsAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ArraysStringsandLoopsAssignment\ArraysStringsandLoopsAssignment.cs\obj\Debug\ArraysStringsandLoopsAssignment.cs.pdb
