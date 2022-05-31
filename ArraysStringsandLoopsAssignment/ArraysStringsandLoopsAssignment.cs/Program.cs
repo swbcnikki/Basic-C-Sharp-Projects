@@ -23,10 +23,21 @@ namespace ArraysStringsandLoopsAssignment.cs
 
             string reaction = Console.ReadLine();
 
+            //A loop that iterates through each string in the array and adds the user's text input to the end
+            //of each string. This step will not output anything to the console, but will update each array
+            //element by appending the user's text.
 
+            for (int ghosts = 0; ghosts < jeepersArray.Length; ghosts++) // loop
+            {
+                //here, the original string is being set to the string and the append together by index
+                jeepersArray[ghosts] = jeepersArray[ghosts] + reaction;
+            }
+
+            // this is the step where the output will show. Below is a loop that prints each appended
+            // string in the array on it own line. ghost is now ghost and reaction together. 
             foreach (string ghost in jeepersArray)
             {
-                Console.WriteLine("It's " + ghost + " ! " + reaction);
+                Console.WriteLine("It's " + ghost + " ! ");
             }
             Console.ReadLine();
 
@@ -46,7 +57,7 @@ namespace ArraysStringsandLoopsAssignment.cs
             }
             Console.ReadLine();
 
-            //for comparison, iterating the list with a < operator
+            //for comparison, iterating the array with a < operator
             int ohno1 = 1;
             while (ohno1 < 14)
             {
@@ -54,7 +65,7 @@ namespace ArraysStringsandLoopsAssignment.cs
             }
             Console.ReadLine();
 
-            //for comparison, iterating the list with a > operator. Note the direction is in the negative 
+            //for comparison, iterating the array with a > operator. Note the direction is in the negative 
             int ohno2 = 14;
             while (ohno2 > 1)
             {
@@ -62,68 +73,59 @@ namespace ArraysStringsandLoopsAssignment.cs
             }
             Console.ReadLine();
 
+
+
+
+
             // list of states that start with the letter M
             List<string> statesList = new List<string>() { "Montana", "Maine", "Minnesota", "Maryland", "Missouri", "Michigan", "Massachusetts", "Mississippi" };
             //question
             Console.WriteLine("Type the name of a state that starts with the letter M to see it's index value");
             string entry = Console.ReadLine(); //prints the answer the user types in
+            bool found = false; // bool set to false to begin with 
 
-            int stateNum = 0; // numbering of the elements begins at 0
-            int index = 0; //index begins at 0 if true answer is entered
-            int notState = -1;// index value of false answer is entered
-            foreach (string state in statesList) // each element in the list
+            for (int state = 0; state < statesList.Count; state++) // iterating through each index in the list until the count is complete
             {
-                if (entry == state) // if what the user types in is the same as one of the elements in the list
+                if (statesList[state] == entry) // if what the user types in is one of the elements in the list
                 {
-                    index = stateNum; // the value in the index is the same as the value in the state number. They are the same element.
-                    notState = notState + 1; // This is to ensure that if this inner if-true statement runs, the if-false statement below does not run. It neutralizes it. 
+                    found = true;  // bool is reset and variable is now true                 
+                    Console.WriteLine($"{statesList[state]} is {state}"); // displaying the index that matches the user entry
+                    break; // code to the loop that stops it from executing once a match has been found
                 }
-                stateNum++; //to activate the loop by increasing the stateNum by 1 until the loop is done
-            }                       
-
-            if ( notState == -1) //if false statement
+            }
+            if (!found) //if not found then its false
             {
                 Console.WriteLine("You have typed in a state that does not exist on the list"); //communication to the user that their input is incorrect
             }
-            else //if true, the foreach has run successfuly, the if false statement above has been bypassed and the app will display the information
-            {
-                Console.WriteLine($"{statesList[index]} is {index}"); //$ means the string is interpolated. {name of list[element in list]} {index}
-            }
             Console.ReadLine();
-
-
 
 
             Console.WriteLine("NBA Champions Of The Last 10 Tournaments");
 
             List<string> paradeList = new List<string>() { "Bucks", "Lakers", "Raptors", "Warriors", "Warriors", "Cavaliers", "Warriors", "Spurs", "Heat", "Heat" };
-
-            Console.WriteLine("Type an NBA team has won the chip in the last 10 tournaments.");
+                          
+            Console.WriteLine("Select and type an NBA team has won the chip in the last 10 tournaments.");
             string champ = Console.ReadLine();
-
-            int teamNum = 1;
-            int teamIndex = 0;
-            int vanquished = -1;
-            foreach (string team in paradeList)
+            bool won = false;
+            for (int team1 = 0; team1 < paradeList.Count; team1++)
             {
-                if (champ == team)
+                if (paradeList[team1] == champ)
                 {
-                    teamNum = teamIndex + 1;
-                    vanquished = vanquished + 1;
+                    won = true;
+                    Console.WriteLine($"{paradeList[team1]} is at index {team1}");
                 }
-                teamNum++;
             }
-
-            if (vanquished == -1)
+            if (!won)
+            {
+                Console.WriteLine("You have typed in a team that is not on the list");
+            }
+            Console.ReadLine();    
+            
+            if (!won)
+            
             {
                 Console.WriteLine("What? You've gotta be kidding! Goodbye.");
-            }
-            else
-            {
-                Console.WriteLine("Within this list, the index of the first and last win for that team is, ");
-                Console.WriteLine(paradeList.IndexOf(champ));
-                Console.WriteLine(paradeList.LastIndexOf(champ));
-            }
+            }            
             Console.ReadLine();
 
 
@@ -132,49 +134,31 @@ namespace ArraysStringsandLoopsAssignment.cs
 
 
 
-            // I need help with this
-            
+
+
             Console.WriteLine("NFL Teams With First Overall Pick Since 2017");
 
             List<string> bustList = new List<string>() { "Jaguars", "Jaguars", "Bengals", "Cardinals", "Browns", "Browns" };
-            List<string> bustRedo = new List<string>(); // stores habitual bust winners       
-
-            Console.WriteLine("Of the 32 NFL teams, which have picked first in the last 6 drafts?");
-            string hopeful = Console.ReadLine(); //each team is hoping for the golden goose
-
-            int firstPick = 0;// numbering the list
-            int lastPlace = 0;// index of list
-            int gladNot = 0; // those not on the list
-            foreach (string team in bustList)
-            {
-                if (hopeful == team)
-                {
-                    firstPick = lastPlace;
-                    gladNot = gladNot + 1;
-                }
-                firstPick++;
+            List<string> busters = new List<string>(); 
+            // as it iterates bustList, the code evaluates whether the team has appeared on the list before or not. Each
+            // team is the then copied to busters as the answer is found whether or not it appears once or multiple
+            // times. By the end of the loop, busters and bustList will have the same exact items each. The objecive here
+            // is to identify and report, not remove or change anything. User input is not required.
             
-                if
-                    (!bustList.Contains(team)) // It's meant to identify the duplicates but it doesn't. 
-                    bustList.Add(team);     // same as above. 
+            foreach (string team in bustList) // in the original list each element is evaluated
+            {
+                if (busters.Contains(team)) // busters is empty to begin with, so each element is new to it
+                {
+                    Console.WriteLine( team + " has appeared before"); // code will recognize an element that has appeared before and report that in the console
+                }
                 else
-                    bustRedo.Add(team); // where the duplicates are supposed to go
+                {
+                    Console.WriteLine( team + "'s first appearance"); // not part of the assignment. I added this for me to see what the whole list would say
+                }
+                busters.Add(team); // this code adds a copy of each team from bustList to busters as it is evaluating and reporting how many times the team has appeared
+                
             }
-            foreach (string team in bustRedo)
-                Console.WriteLine(team + "(2)"); // special addition to duplicate to indicate it is appearing for the 2nd time on the list
             Console.ReadLine();
-
-
-            //foreach (string team in bustList)
-            //{
-            //    if (hopeful == team)
-            //    {
-            //        Console.WriteLine(bustList.IndexOf(team));
-            //        Console.WriteLine(bustList.LastIndexOf(team));
-
-            //    }
-            //    Console.ReadLine();
-
             
 
         }
