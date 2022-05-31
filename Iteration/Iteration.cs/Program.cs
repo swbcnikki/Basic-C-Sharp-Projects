@@ -76,6 +76,7 @@ class Program
             List<int> testScores2 = new List<int>() { 98, 99, 85, 70, 82, 34, 91, 90, 94 };
             List<int> passingScores = new List<int>(); // this is an empty list so we can populate it with the qualifying info from the above list 
 
+
             foreach (int score in testScores2)
 
 

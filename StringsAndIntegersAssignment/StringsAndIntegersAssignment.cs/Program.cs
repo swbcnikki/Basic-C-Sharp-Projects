@@ -53,7 +53,7 @@ namespace StringsAndIntegersAssignment.cs
                 Console.ReadLine(); // if there is a return, like in the first catch above, it stops the whole program 
                                     // and the readline does not execute. To guarantee the readline executes, it is nested under the finally
             }
-            Console.WriteLine("You have successfully run the program and emerged after going through the try-catch block");
+            Console.WriteLine("You have successfully run the program and emerged after going through the try-catch block. Have a nice day!");
             Console.ReadLine();
         }
         
