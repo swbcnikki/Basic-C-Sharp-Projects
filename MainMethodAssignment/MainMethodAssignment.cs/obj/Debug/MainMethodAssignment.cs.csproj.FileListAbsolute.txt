@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\obj\Debug\MainMethodAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\obj\Debug\MainMethodAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\bin\Debug\MainMethodAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\bin\Debug\MainMethodAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\bin\Debug\MainMethodAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\obj\Debug\MainMethodAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MainMethodAssignment\MainMethodAssignment.cs\obj\Debug\MainMethodAssignment.cs.pdb
