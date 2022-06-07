@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\bin\Debug\ClassAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\bin\Debug\ClassAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\bin\Debug\ClassAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\obj\Debug\ClassAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\obj\Debug\ClassAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\obj\Debug\ClassAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ClassAssignment\ClassAssignment.cs\obj\Debug\ClassAssignment.cs.pdb
