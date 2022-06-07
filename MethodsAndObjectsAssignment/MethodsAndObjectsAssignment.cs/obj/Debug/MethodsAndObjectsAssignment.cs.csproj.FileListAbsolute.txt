@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\bin\Debug\MethodsAndObjectsAssignment.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\bin\Debug\MethodsAndObjectsAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\bin\Debug\MethodsAndObjectsAssignment.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\obj\Debug\MethodsAndObjectsAssignment.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\obj\Debug\MethodsAndObjectsAssignment.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\obj\Debug\MethodsAndObjectsAssignment.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\MethodsAndObjectsAssignment\MethodsAndObjectsAssignment.cs\obj\Debug\MethodsAndObjectsAssignment.cs.pdb
