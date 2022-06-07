@@ -15,25 +15,25 @@ namespace MethodAssignment.cs
             Console.WriteLine("Type in a number for the operation to execute..."); // user question
             int digit = Convert.ToInt32(Console.ReadLine()); // converting input to int
 
-            int sum = option.Addition(digit); //calling the method
+            int sum1 = option.Addition(digit);
 
-            Console.WriteLine(sum); // operation and displaying the result
-            Console.ReadLine(); // keep console open to view result
+            Console.WriteLine("(This is optional) Type a second number to execute...");
+            //string entry = Console.ReadLine();
+            //if (entry == "")
+            //{
+            //    Console.WriteLine("No number entered");
+            //}
 
-            Console.WriteLine("If you would like, type in a second number..."); // question option for user
-            int i = Convert.ToInt32(Console.ReadLine()); // converting to int         
-            if (i != null) // if i has an int value, perform the operation below
-            {
-                int sum1 = option.Addition(i); // calling the method
-                Console.WriteLine(sum + i); // operation and displaying the result
-                Console.ReadLine(); // keep the screen open
-            }
-            else // THIS PART IS NOT WORKING. I HAVE NOT BEEN ABLE TO FIGURE IT OUT AND AFTER SEVERAL TRIES, I THINK I WILL WAIT FOR HELP ON MONDAY
-            {
-                Console.WriteLine(sum); // display the original answer if i does not have a value
-                Console.ReadLine(); // keep the screen open
+            int digit2 = Convert.ToInt32(Console.ReadLine()); // converting input to int
+                      
+            int sum2 = option.Addition(digit, digit2);
 
-            }
+                        
+            Console.WriteLine("The sum is {0} and the other sum is {1} ", sum1, sum2);
+            Console.ReadLine();
+
+
+             
         }
                 
         
