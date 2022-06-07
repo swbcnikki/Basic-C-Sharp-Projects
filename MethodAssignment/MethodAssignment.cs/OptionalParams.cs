@@ -17,20 +17,7 @@ namespace MethodAssignment.cs
 
         }
 
-        //public int Addition(int num1, int[] moreNums) // method with 1 required and 1 optional param
-        //{
-        //    int result = num1 + num1; // math operation for the required param
-
-        //    if (moreNums != null) // if statement for optional param
-        //    {
-        //        foreach (int i in moreNums) // for each additional optional param...
-        //        {
-        //            result += i; // ...add to the original result
-        //        }
-        //    }
-        //    return result; // return the end result
-        //}
-           
+                  
         
         
     }
