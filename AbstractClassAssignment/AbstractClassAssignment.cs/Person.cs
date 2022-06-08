@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAssignment.cs
 {
-    public abstract class Person
+    public abstract class Person // creating an abstract class
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; set; } // class property
+        public string LastName { get; set; } // class property
 
-        public abstract void Name();
-        public virtual void SayName()
+        public abstract void Name(); // abstract method within abstract class. They do not implement. 
+        public virtual void SayName() // method. virtual allows for implementation or override to customize
         {
             Console.WriteLine("Name: {0} {1}", FirstName, LastName);
         }

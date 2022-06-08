@@ -16,8 +16,8 @@ namespace CallingMethodsAssignment.cs
         public static int Add(int hank) // creating the first method. Public so its available everywhere,
                                                         // static coz it's not instatiated, int, name of method, parameters in parenth.
         {
-            int result = hank + hank; // setting up the operation. Notice the variable names here do not match
-                                            // the ones when the method is called. The can, but they don't have to.
+            int result = hank + hank; // setting up the operation. Notice the variable names here do not match the 
+                                            // ones when the method is called. The can, but they don't have to.
             return result; // setting what to do with the outcome of the operation. This is a requirement of the method
                            // for it to work. Return is not the only way.
         }

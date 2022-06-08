@@ -17,7 +17,7 @@ namespace MethodsAndObjectsAssignment.cs
             employee.LastName = "Student"; // initializing the last name
             employee.SayName(); // calling superclass method 
 
-            Console.ReadLine();
+            Console.ReadLine(); // keep screen open
 
             
 
