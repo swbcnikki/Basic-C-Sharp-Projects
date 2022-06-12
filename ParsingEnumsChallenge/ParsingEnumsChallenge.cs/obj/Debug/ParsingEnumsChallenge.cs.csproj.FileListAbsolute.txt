@@ -1,0 +1,7 @@
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\bin\Debug\ParsingEnumsChallenge.cs.exe.config
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\bin\Debug\ParsingEnumsChallenge.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\bin\Debug\ParsingEnumsChallenge.cs.pdb
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\obj\Debug\ParsingEnumsChallenge.cs.csproj.AssemblyReference.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\obj\Debug\ParsingEnumsChallenge.cs.csproj.CoreCompileInputs.cache
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\obj\Debug\ParsingEnumsChallenge.cs.exe
+C:\Users\Bibo\Documents\GitHub\Basic-C-Sharp-Projects\ParsingEnumsChallenge\ParsingEnumsChallenge.cs\obj\Debug\ParsingEnumsChallenge.cs.pdb
