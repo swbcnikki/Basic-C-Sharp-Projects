@@ -8,8 +8,9 @@ namespace LambdaAssignment.cs
 {
     public class Employee
     {
-        public int ID { get; set; }
-        public string Name { get; set; }
+        public int ID { get; set; } // property
+        public string firstName { get; set; } //property
+        public string lastName { get; set; } //property
     }
 }
    

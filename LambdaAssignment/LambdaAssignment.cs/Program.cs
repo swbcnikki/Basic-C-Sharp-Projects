@@ -9,34 +9,57 @@ namespace LambdaAssignment.cs
    
     public class Program
     {
-        public void Main(string[] args)
+        public static void Main(string[] args)
         {
+            //In the Main() method, create a list of at least 10 employees. Each employee should have a first and last name, as well
+            //as an Id. At least two employees should have the first name “Joe”
+
+
+            //****** NOTE THERE IS AN ADDED CLASS, EMPLOYEE.CS THAT HAS THE DECLARATIONS FOR ID, FIRSTNAME AND LASTNAME PROPERTIES******
+
+
             List<Employee> employeeList = new List<Employee>()
             {
-                new Employee{ ID = 1, Name = "Joe Smith"},
-                new Employee{ ID = 2, Name = "Mary Meta"},
-                new Employee{ ID = 3, Name = "Tim Twitter"},
-                new Employee{ ID = 4, Name = "Amos Amazon"},
-                new Employee{ ID = 5, Name = "Daisy Discord"},
-                new Employee{ ID = 6, Name = "Alice Apple"},
-                new Employee{ ID = 7, Name = "Matt Microsoft"},
-                new Employee{ ID = 8, Name = "Ginger Google"},
-                new Employee{ ID = 9, Name = "Zippy Zoom"},
-                new Employee{ ID = 10, Name = "Joe Jones"},
+                new Employee{ ID = 1, firstName = "Joe", lastName = "Smith"},
+                new Employee{ ID = 2, firstName = "Mary", lastName = "Meta"},
+                new Employee{ ID = 3, firstName = "Tim", lastName = "Twitter"},
+                new Employee{ ID = 4, firstName = "Amos", lastName = "Amazon"},
+                new Employee{ ID = 5, firstName = "Daisy", lastName = "Discord"},
+                new Employee{ ID = 6, firstName = "Alice", lastName = "Apple"},
+                new Employee{ ID = 7, firstName = "Matt", lastName = "Microsoft"},
+                new Employee{ ID = 8, firstName = "Ginger", lastName = "Google"},
+                new Employee{ ID = 9, firstName = "Zippy", lastName = "Zoom"},
+                new Employee{ ID = 10, firstName = "Joe", lastName = "Jones"},
 
             };
 
-            foreach (string Name in employeeList)
+            List<Employee> onlyJoes = new List<Employee>(); //creating a list for the filtered names to go to
+
+            foreach (Employee emp in employeeList) // iterate the whole list, for each emp, perform the if statement
             {
-                if (Employee.Name.Contains("Joe"))
+                if (emp.firstName.Contains("Joe")) //if statement filtering the list
                 {
-                    Console.WriteLine(Name);
-                    Console.ReadLine();
-
-                }
+                    onlyJoes.Add(emp); // adding filtered names to the newly created list onlyJoes
+                    Console.WriteLine("{0} {1}", emp.firstName, emp.lastName); // format to print what you want. Could include id if you want              
+                }                
             }
+            // Doing the same action as above but with lambda
+            employeeList.ForEach(x => //iterate the whole employee list, for each x perform the if statement
+            {
+                if (x.firstName == "Joe") //if statement bool to filter employees with first name Joe
+                {
+                    Console.WriteLine("{0} {1}", x.firstName, x.lastName); // writing to console
+                }
+            });
 
-            Employee employee = employeeList.Find(numIDs => Employee.ID > 5)
+            employeeList.ForEach(y => // iterate the whole employee list, for each y, do the if statement
+            {
+                if (y.ID > 5) // if statement bool to filter all names with ID numbers greater than 5
+                {
+                    Console.WriteLine("{0} {1} {2}", y.ID, y.firstName, y.lastName); // writing to console
+                }
+            });
+            Console.ReadLine(); //keep console open with all results showing
         }
     }
 }
