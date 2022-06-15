@@ -43,22 +43,21 @@ namespace LambdaAssignment.cs
                     Console.WriteLine("{0} {1}", emp.firstName, emp.lastName); // format to print what you want. Could include id if you want              
                 }                
             }
-            // Doing the same action as above but with lambda
-            employeeList.ForEach(x => //iterate the whole employee list, for each x perform the if statement
-            {
-                if (x.firstName == "Joe") //if statement bool to filter employees with first name Joe
-                {
-                    Console.WriteLine("{0} {1}", x.firstName, x.lastName); // writing to console
-                }
-            });
 
-            employeeList.ForEach(y => // iterate the whole employee list, for each y, do the if statement
+            List<Employee> lambdaJoes = employeeList.Where(x => x.firstName == "Joe").ToList();
+
+            foreach (Employee x in lambdaJoes)
             {
-                if (y.ID > 5) // if statement bool to filter all names with ID numbers greater than 5
-                {
-                    Console.WriteLine("{0} {1} {2}", y.ID, y.firstName, y.lastName); // writing to console
-                }
-            });
+                Console.WriteLine("{0} {1}", x.firstName, x.lastName);
+            }
+
+            List<Employee> lambdaList = employeeList.Where(y => y.ID > 5).ToList();
+
+            foreach (Employee y in lambdaList)
+            {
+                Console.WriteLine("{0} {1} {2}", y.ID, y.firstName, y.lastName);
+            }
+
             Console.ReadLine(); //keep console open with all results showing
         }
     }
