@@ -6,6 +6,12 @@ using System.Threading.Tasks;
 
 namespace PolymorphismAssignment.cs
 {
+
+
+    //*** THIS PROGRAM DOES NOT WORK *** REDONE AS POLYMORPHISM2
+
+
+
     public class Employee : Person, IQuittable // inheriting from Person class and IQuittable interface
     {
         public override void Name() // overriding the abstract class

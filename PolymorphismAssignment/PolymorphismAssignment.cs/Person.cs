@@ -8,6 +8,12 @@ namespace PolymorphismAssignment.cs
 {
     public abstract class Person
     {
+
+
+        //*** THIS PROGRAM DOES NOT WORK *** REDONE AS POLYMORPHISM2
+
+
+
         public string FirstName { get; set; } // class property
         public string LastName { get; set; } // class property
 

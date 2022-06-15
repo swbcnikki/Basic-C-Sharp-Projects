@@ -29,7 +29,7 @@ namespace MainMethodAssignment.cs
             Variety strOp = new Variety();       // instance of strOp     
             int prod2 = (int)strOp.Cube("3");   // math operation
             Console.WriteLine(prod2);           // Display result           
-            Console.ReadLine();
+            Console.ReadLine(); //keep window open
         }
 
     }

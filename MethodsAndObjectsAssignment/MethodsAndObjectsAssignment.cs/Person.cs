@@ -8,8 +8,8 @@ namespace MethodsAndObjectsAssignment.cs
 {
     public class Person
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
+        public string FirstName { get; set; } //property
+        public string LastName { get; set; } // property
 
         public void SayName()
         {
