@@ -11,11 +11,11 @@ namespace OperatorsOverloadAssignment.cs
        
         public static bool operator == (Employees emp1, Employees emp2)
         {          
-            return emp1 == emp2;
+            return emp1.empId == emp2.empId;
         }
         public static bool operator != (Employees emp1, Employees emp2)
         {
-            return emp1 != emp2;
+            return emp1.empId != emp2.empId;
         }
     }
 }

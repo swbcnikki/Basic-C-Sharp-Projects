@@ -23,18 +23,15 @@ namespace OperatorsOverloadAssignment.cs
 
             Console.ReadLine();
 
-            if (emp1.empId == emp2.empId)
+            if (emp1 == emp2)
             {
                 Console.WriteLine("This is a match. This is the same person.");
             }
-            else if (emp1.empId != emp2.empId)
+            else
             {
                 Console.WriteLine("These are 2 different people");
             }
-            else
-            {
-                Console.WriteLine("The information entered does not match");
-            }
+            
             Console.ReadLine();
         }  
                         
