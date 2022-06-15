@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAssignment.cs
 {
-    public class Employee : Person, IQuittable // inheriting from Person class and IQuittable interface
+    public class Employee : Person // inheriting from Person class
     {
         public override void Name() // overriding the abstract class
         {
@@ -16,9 +16,6 @@ namespace AbstractClassAssignment.cs
         {
             base.SayName();
         }
-        public void Quit() // implementing the Quit method from the IQuittable interface
-        {
-            Console.WriteLine("This is interface");
-        }
+       
     }
 }

@@ -16,6 +16,6 @@ namespace AbstractClassAssignment.cs
         {
             Console.WriteLine("Name: {0} {1}", FirstName, LastName);
         }
-
+        
     }
 }
