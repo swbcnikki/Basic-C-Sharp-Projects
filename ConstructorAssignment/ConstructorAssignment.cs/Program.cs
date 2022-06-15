@@ -10,7 +10,15 @@ namespace ConstructorAssignment.cs
     {
         public static void Main(string[] args)
         {
-            Qualifications newAbility = new Qualifications("Ruthlessness"); // testing the new chain constructor - I'm not entirely sure how this is supposed to test it but we will talk about it tomorrow
+
+            // now create an object and then print the attributes
+            // trace through with debugger
+
+            // Chaining constructors is essentially overloading constructors. Number of attributes can be different.
+            Qualifications qualifications = new Qualifications("availability");
+
+            Qualifications qualifications1 = new Qualifications("availability", "capability");
+
 
             const string squadName = "The Deadly Viper Assassination Squad";
 
